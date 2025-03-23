@@ -1,0 +1,14 @@
+project/
+├── include/
+│   └── supermarket.h   # 头文件声明结构体、全局变量、函数原型
+├── src/
+│   ├── main.c          # 主函数与菜单驱动，界面打印
+│   ├── admin.c         # 管理员功能实现
+│   ├── salesperson.c   # 售货员功能实现
+│   ├── data.c          # 数据存储与管理
+│   └── utils.c         # 通用工具函数（如输入验证、排序算法）
+└── data/
+    ├── goods.dat       # 商品数据文件
+    ├── customers.dat   # 顾客数据文件
+    ├── sales.dat       # 销售记录文件
+    └── backup/         # 备份目录
